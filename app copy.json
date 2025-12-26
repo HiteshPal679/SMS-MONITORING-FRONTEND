@@ -10,8 +10,7 @@
       "package": "com.hiteshpal.smssyncapp",
       "permissions": [
         "READ_SMS",
-        "RECEIVE_SMS",
-        "POST_NOTIFICATIONS"
+        "RECEIVE_SMS"
       ]
     },
     "plugins": [
@@ -27,6 +26,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.hiteshpal.smssyncapp"
     }
   }
 }
